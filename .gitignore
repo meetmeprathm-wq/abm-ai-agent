@@ -1,0 +1,12 @@
+# Never commit real reports, prospect data or secrets
+reports/
+Sample Reports/
+*.pdf
+*.xlsx
+*.html
+.env
+*.key
+**/credentials*.json
+workflow/*-raw.json
+.DS_Store
+Thumbs.db
